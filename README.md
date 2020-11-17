@@ -24,7 +24,7 @@ User can add emergency contact including name, portrait, phone number, and email
 ### 5. Send location: 
 Long press the "Share Location" button, the application will send a message to everyone in the contact list to ask for help and inform them of the user's current location. (In order to avoid misoperation, the trigger condition is set to long press this button)
 
-<img src = "https://github.com/Qinwang1993/Personal-Safety-App/blob/main/ScreenShoot/Xnip2020-11-17_13-26-07.jpg" width = "375/>
+<img src = "https://github.com/Qinwang1993/Personal-Safety-App/blob/main/ScreenShoot/Xnip2020-11-17_13-26-07.jpg" width = "375" />
                                                                                                                            
 ### 6. Emergency call: 
 Long press the "emergency call" button on the homepage, or just shake the phone (open the motion sensor in advance), the application will automatically dial the emergency contact
