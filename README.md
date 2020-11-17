@@ -1,11 +1,11 @@
 # Persaon-Safety-App
 Sister is a personal safety app, which works based on real time location. It aims to prevent possible threats and respond in case of an emergency.
 It mainly contains these five functions: 
-	1. User Registration /Login / Profile
-	2. Scream Alarms and fake calls.                            
-	3. Auto Call and SMS with current GPS location.        
-	4. Search nearby, Police Stations and Hospitals.                                                                       
-	5. Provide First Aid / Self Defense / Other Information.     
+1. User Registration /Login / Profile
+2. Scream Alarms and fake calls.                            
+3. Auto Call and SMS with current GPS location.        
+4. Search nearby, Police Stations and Hospitals.                                                                       
+5. Provide First Aid / Self Defense / Other Information.     
 ## Details
 Using the abundant features and UI elements, this project will compliment functions as follows.
 1. Send Location: The user just needs to click on the “Share Location” button, the application will send a message to everyone in the contact list to inform them the user’s location.
@@ -31,4 +31,8 @@ Using the abundant features and UI elements, this project will compliment functi
 11. Self defense helper: Under the discover page, users could get some training in self defense.
 
 12. Healthy tips: Under the discover page, users could get some training on healthy tips.
+
+13. About Us: Users can link to the About Us page and Click the link to contact us.
+
+14. FAQ Page: Users can browse the FAQ page and get answers to FAQs.
 
