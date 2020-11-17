@@ -57,8 +57,8 @@ The discovery page provide some health tips.
 ### 13. About Us: 
 Users can contact us in various ways.
 <div  align="center">    
-  <img src = "https://github.com/Qinwang1993/Personal-Safety-App/blob/main/ScreenShoot/navigation%20drawer.jpg" width = "375" />
-  <img src = "https://github.com/Qinwang1993/Personal-Safety-App/blob/main/ScreenShoot/about%20us.jpg" width = "375" />
+  <img src = "https://github.com/Qinwang1993/Personal-Safety-App/blob/main/ScreenShoot/navigation%20drawer.jpg" width = "200" />
+  <img src = "https://github.com/Qinwang1993/Personal-Safety-App/blob/main/ScreenShoot/about%20us.jpg" width = "200" />
 </div>
 
 ### 14. FAQ Page: 
