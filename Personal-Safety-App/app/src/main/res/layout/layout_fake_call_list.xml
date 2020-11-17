@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:id="@+id/contact_cardView"
+        android:layout_margin="2dp"
+        app:cardElevation="1dp"
+        android:background="@drawable/grey_border">
+
+    
+        <RelativeLayout
+            xmlns:android="http://schemas.android.com/apk/res/android"
+            android:id = "@+id/one_fake_call"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:padding="10dp"
+            android:descendantFocusability="blocksDescendants">
+
+            <ImageView
+                android:id="@+id/radio_play"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:layout_marginRight="10dp"
+                android:layout_marginTop="5dp"
+                android:src="@drawable/ic_play"
+                />
+
+            <TextView
+                android:id="@+id/fake_call_name"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:layout_marginLeft="10dp"
+                android:text = "Radio_name"
+                android:layout_toRightOf="@id/radio_play"
+                android:textColor="@color/colorPrimary"
+                android:textSize="20sp" />
+
+            <ImageView
+                android:id="@+id/radio_delete"
+                android:layout_width="20dp"
+                android:layout_height="35dp"
+                android:layout_alignParentEnd="true"
+                android:layout_marginRight="10dp"
+                android:layout_marginTop="5dp"
+                android:src="@drawable/ic_purple_delete"
+                android:layout_alignParentRight="true" />
+
+        </RelativeLayout>
+    </androidx.cardview.widget.CardView>
+</RelativeLayout>

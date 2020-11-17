@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/empty_fake_call_view"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+<ImageView
+    android:id="@+id/empty_box"
+    android:layout_width="200dp"
+    android:layout_height="200dp"
+    android:layout_marginTop="200dp"
+    android:layout_centerHorizontal="true"
+    android:src="@mipmap/empty_box" />
+
+<TextView
+    android:id="@+id/oops"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_below="@id/empty_box"
+    android:layout_centerHorizontal="true"
+    android:text="Oops!"
+    android:textStyle="bold"
+    android:textColor="@color/grey"
+    android:textSize="30sp" />
+
+<TextView
+    android:id="@+id/content"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_below="@id/oops"
+    android:layout_centerHorizontal="true"
+    android:text="Your List is Empty,"
+    android:textColor="@color/grey"
+    android:textSize="15sp" />
+
+<TextView
+    android:id="@+id/content2"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_below="@id/content"
+    android:layout_marginTop="10dp"
+    android:layout_centerHorizontal="true"
+    android:text="Add Your Fake Call Now!"
+    android:textColor="@color/grey"
+    android:textSize="15sp" />
+</RelativeLayout>

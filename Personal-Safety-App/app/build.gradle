@@ -1,0 +1,74 @@
+apply plugin: 'com.android.application'
+apply plugin: 'kotlin-android'
+
+android {
+    compileSdkVersion 30
+    buildToolsVersion "30.0.2"
+
+    defaultConfig {
+        applicationId "com.sjsu.sister"
+        minSdkVersion 16
+        targetSdkVersion 30
+        versionCode 1
+        versionName "1.0"
+
+        testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
+        multiDexEnabled true
+    }
+
+    buildTypes {
+        release {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android-optimize.txt'), 'proguard-rules.pro'
+        }
+    }
+    compileOptions {
+        sourceCompatibility JavaVersion.VERSION_1_8
+        targetCompatibility JavaVersion.VERSION_1_8
+    }
+}
+
+dependencies {
+    implementation fileTree(dir: "libs", include: ["*.jar"])
+    implementation 'androidx.appcompat:appcompat:1.2.0'
+    implementation 'androidx.constraintlayout:constraintlayout:2.0.2'
+    implementation 'androidx.legacy:legacy-support-v4:1.0.0'
+    implementation 'com.google.android.gms:play-services-maps:17.0.0'
+    testImplementation 'junit:junit:4.12'
+    androidTestImplementation 'androidx.test.ext:junit:1.1.2'
+    androidTestImplementation 'androidx.test.espresso:espresso-core:3.3.0'
+    implementation group: 'com.squareup.okhttp3', name: 'okhttp', version: '3.10.0'
+    //noinspection GradleCompatible
+    implementation 'com.android.support:appcompat-v7:28.0.0'
+    //noinspection GradleCompatible
+    implementation 'com.android.support:design:28.0.0'
+    //noinspection GradleCompatible
+    implementation 'com.android.support:cardview-v7:28.0.0'
+    implementation 'com.flyco.tablayout:FlycoTabLayout_Lib:2.1.2@aar'
+    implementation 'com.google.android.material:material:1.3.0-alpha02'
+    //implementation 'com.google.android.gms:play-services:12.0.1'
+    implementation 'com.google.android.libraries.places:places:2.4.0'
+    implementation 'com.android.support:multidex:1.0.3'
+    implementation 'net.sourceforge.jexcelapi:jxl:2.6.12'
+    implementation 'com.loopj.android:android-async-http:1.4.10'
+    implementation 'com.squareup.picasso:picasso:2.7'
+    implementation 'com.nostra13.universalimageloader:universal-image-loader:1.9.5'
+    implementation 'de.hdodenhof:circleimageview:2.1.0'
+    implementation "androidx.core:core-ktx:+"
+    implementation "androidx.lifecycle:lifecycle-viewmodel-ktx:2.1.0"
+    implementation "org.jetbrains.kotlin:kotlin-stdlib-jdk7:$kotlin_version"
+    //facebook login
+    implementation 'com.facebook.android:facebook-android-sdk:[5,6)'
+    //google login
+    implementation 'com.google.android.gms:play-services-auth:18.1.0'
+    // Video Player
+    implementation 'com.github.dueeeke.dkplayer:dkplayer-java:3.2.6'
+    implementation 'com.github.dueeeke.dkplayer:dkplayer-ui:3.2.6'
+    implementation 'com.github.dueeeke.dkplayer:player-exo:3.2.6'
+    implementation 'com.github.dueeeke.dkplayer:player-ijk:3.2.6'
+    implementation 'com.github.dueeeke.dkplayer:videocache:3.2.6'
+    implementation 'com.github.denzcoskun:ImageSlideshow:0.1.0'
+
+//    implementation 'com.google.android.exoplayer:exoplayer:r2.5.4'
+
+}

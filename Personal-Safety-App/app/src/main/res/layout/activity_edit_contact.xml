@@ -1,0 +1,187 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".activity.EditContactActivity"
+    tools:ignore="ExtraText">
+
+    <include
+        android:id ="@+id/topbar"
+        layout="@layout/toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <RelativeLayout
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:orientation="vertical"
+        android:padding="10dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/topbar"
+        app:layout_constraintBottom_toBottomOf ="parent">
+
+        <de.hdodenhof.circleimageview.CircleImageView
+            android:id="@+id/edit_image"
+            android:layout_width="200dp"
+            android:layout_height="200dp"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="50dp"
+            android:src="@drawable/ic_default_contact"
+            app:civ_border_width="1dp"
+            app:civ_border_color="@color/grey"/>
+
+        <ImageView
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:layout_below="@id/edit_image"
+            android:layout_alignParentEnd="true"
+            android:layout_marginEnd="60dp"
+            android:id="@+id/icon_camera"
+            android:src = "@drawable/ic_photo"
+            android:layout_alignParentRight="true"
+            android:layout_marginRight="60dp" />
+
+        <RelativeLayout
+            android:id="@+id/layout1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/icon_camera"
+            android:padding="20dp">
+
+            <ImageView
+                android:id="@+id/icon_name"
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:src="@drawable/ic_user"
+                android:layout_alignParentLeft="true"
+                android:layout_marginLeft="10dp"
+                android:layout_centerVertical="true"/>
+
+            <EditText
+                android:id="@+id/editName"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:inputType = "textPhonetic"
+                android:background="@null"
+                android:hint="Name"
+                android:layout_toRightOf="@id/icon_name"
+                android:textColor="@color/black"
+                android:textColorHint="#bcbcbc"
+                android:layout_marginLeft="20dp"
+                android:layout_centerVertical="true"
+                android:textSize="16sp"
+                android:layout_marginStart="20dp" />
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:layout_marginTop="20dp"
+                android:layout_below="@id/icon_name"
+                android:background="@color/divider" />
+        </RelativeLayout>
+
+
+
+        <RelativeLayout
+            android:id="@+id/layout2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/layout1"
+            android:padding="20dp">
+
+            <ImageView
+                android:id="@+id/icon_phone"
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:src="@drawable/ic_call"
+                android:layout_alignParentLeft="true"
+                android:layout_marginLeft="10dp"
+                android:layout_centerVertical="true"/>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_toRightOf="@id/icon_phone"
+                android:layout_marginStart="20dp"
+                android:layout_centerVertical="true"
+                android:layout_marginLeft="20dp"
+                android:orientation="horizontal">
+
+                <EditText
+                    android:id="@+id/editPhoneNumber"
+                    android:layout_width="0dp"
+                    android:layout_weight="3"
+                    android:layout_height="wrap_content"
+                    android:inputType = "textPhonetic"
+                    android:background="@null"
+                    android:hint="Phone Number"
+                    android:textColor="@color/black"
+                    android:textColorHint="#bcbcbc"
+                    android:textSize="16sp" />
+
+                <Spinner
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+
+                    android:entries="@array/device_options"
+                    android:textColor = "@color/black"
+                    android:textSize = "16sp"
+                    android:layout_toRightOf="@id/editPhoneNumber"
+                    android:id="@+id/select_device" />
+            </LinearLayout>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:layout_below="@id/icon_phone"
+                android:layout_marginTop="20dp"
+                android:background="@color/divider" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/layout3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/layout2"
+            android:padding="20dp">
+
+            <ImageView
+                android:id="@+id/icon_email"
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:src="@drawable/ic_email"
+                android:layout_alignParentLeft="true"
+                android:layout_marginLeft="10dp"
+                android:layout_centerVertical="true"/>
+
+            <EditText
+                android:id="@+id/editEmail"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:inputType = "textEmailAddress"
+                android:background="@null"
+                android:hint="Email"
+                android:layout_toRightOf="@id/icon_email"
+                android:textColor="@color/black"
+                android:textColorHint="#bcbcbc"
+                android:layout_marginLeft="20dp"
+                android:layout_centerVertical="true"
+                android:textSize="16sp"
+                android:layout_marginStart="20dp" />
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:layout_marginTop="20dp"
+                android:layout_below="@id/icon_email"
+                android:background="@color/divider" />
+        </RelativeLayout>
+
+    </RelativeLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

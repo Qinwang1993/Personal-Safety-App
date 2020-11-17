@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".activity.ViewContactsActivity"
+    tools:ignore="ExtraText">
+
+    <include
+        android:id ="@+id/topbar"
+        layout="@layout/toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <RelativeLayout
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:orientation="vertical"
+        android:padding="10dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/topbar"
+        app:layout_constraintBottom_toBottomOf ="parent">
+
+        <de.hdodenhof.circleimageview.CircleImageView
+            android:id="@+id/contact_detail_image"
+            android:layout_width="200dp"
+            android:layout_height="200dp"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="50dp"
+            android:src="@drawable/ic_default_contact"
+            app:civ_border_width="1dp"
+            app:civ_border_color="@color/grey"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/contact_detail_image"
+            android:layout_marginTop="30dp"
+            android:textSize="30sp"
+            android:layout_centerHorizontal="true"
+            android:textColor="@color/black"
+            android:id="@+id/contact_detail_name"
+            android:text="Name"/>
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="70dp"
+            android:id="@+id/contact_phoneCard"
+            app:cardElevation="3dp"
+            android:layout_margin="10dp"
+            android:layout_marginTop="30dp"
+            android:layout_below="@id/contact_detail_name"
+            android:background="@drawable/grey_border">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <ImageView
+                    android:layout_width="30dp"
+                    android:layout_height="30dp"
+                    android:layout_marginStart="20dp"
+                    android:layout_marginLeft="20dp"
+                    android:id="@+id/icon_phone"
+                    android:src = "@drawable/ic_call"
+                    android:layout_centerVertical="true"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Phone Number"
+                    android:textSize="15sp"
+                    android:textColor="@color/black"
+                    android:layout_centerInParent="true"
+                    android:id="@+id/text_phone_number"/>
+
+                <ImageView
+                    android:layout_width="30dp"
+                    android:layout_height="30dp"
+                    android:layout_alignParentEnd="true"
+                    android:layout_alignParentRight="true"
+                    android:layout_marginEnd="20dp"
+                    android:id="@+id/icon_message"
+                    android:src = "@drawable/ic_message"
+                    android:layout_centerVertical="true"
+                    android:layout_marginRight="20dp" />
+
+            </RelativeLayout>
+
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="70dp"
+            android:id="@+id/contact_emailCard"
+            android:clickable="false"
+            android:focusable="false"
+            app:cardElevation="3dp"
+            android:layout_margin="10dp"
+            android:layout_marginTop="30dp"
+            android:layout_below="@id/contact_phoneCard"
+            android:background="@drawable/grey_border">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <ImageView
+                    android:layout_width="30dp"
+                    android:layout_height="30dp"
+                    android:layout_marginStart="20dp"
+                    android:layout_marginLeft="20dp"
+                    android:id="@+id/icon_email"
+                    android:src = "@drawable/ic_email"
+                    android:layout_centerVertical="true"/>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Email"
+                    android:textSize="15sp"
+                    android:textColor="@color/black"
+                    android:layout_centerInParent="true"
+                    android:id="@+id/text_email"/>
+
+            </RelativeLayout>
+
+        </androidx.cardview.widget.CardView>
+
+    </RelativeLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

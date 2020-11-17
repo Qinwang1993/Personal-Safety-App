@@ -1,0 +1,41 @@
+<resources>
+    <string name="app_name">Sister</string>
+    <string name="app_slogan">Feel safe wherever you go</string>
+    <string name="login">Log in</string>
+    <string name="register">Sign up</string>
+    <string name="not_member">"Don't have an account ? Sign Up</string>
+    <string name="already_member">Already have an Account ? Log In</string>
+
+    <string name="account_hint">User name</string>
+    <string name="email_hint">Email</string>
+    <string name="pwd_hint">Password</string>
+
+    <string name="oldpwd_hint">Old Password</string>
+    <string name="newpwd_hint">New Password</string>
+    <string name="confirmPwd_hint">Confirm Password</string>
+
+    <string name="set_pwd">Set Password</string>
+
+    <string name="hint_setting">To change your password you need to enter your old password.(If you have logged in with a third party account, your default password is 123456)</string>
+    <string name="hint_changeusername">Please enter your new user name.</string>
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+    <string name="drawer_open">Open navigation drawer</string>
+    <string name="drawer_close">Close navigation drawer</string>
+
+    <string name="default_info_title">Default Location</string>
+    <string name="default_info_snippet">No places found, because location permission is disabled.</string>
+    <string name="option_get_place">Get place</string>
+    <string name="pick_place">Choose a place</string>
+    <string-array name="device_options">
+        <item>Mobile</item>
+        <item>Home</item>
+        <item>Other</item>
+    </string-array>
+
+    //facebook
+    <string name="facebook_app_id">372334847438067</string>
+    <string name="fb_login_protocol_scheme">fb372334847438067</string>
+    <string name="about_page_description" translatable="false">Sister is a personal safety app, which works based on real time location. It aims to prevent possible threats and respond in case of an emergency.</string>
+
+</resources>

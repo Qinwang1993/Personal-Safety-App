@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:tl="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".activity.HomeActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+<!--        <include-->
+<!--            layout="@layout/toolbar"-->
+<!--            android:layout_width="match_parent"-->
+<!--            android:layout_height="wrap_content" />-->
+
+<!--        Bottom TabLayout-->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <androidx.viewpager.widget.ViewPager
+                android:id="@+id/viewpager"
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1"/>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="@color/divider" />
+
+            <com.flyco.tablayout.CommonTabLayout
+                android:id="@+id/commonTabLayout"
+                android:layout_width="match_parent"
+                android:layout_height="66dp"
+                android:background="#ffffff"
+                tl:tl_iconHeight="30dp"
+                tl:tl_iconWidth="30dp"
+                tl:tl_indicator_color="#2C97DE"
+                tl:tl_indicator_height="0dp"
+                tl:tl_textSelectColor="#551A8B"
+                tl:tl_textUnselectColor="#8968CD"
+                tl:tl_textsize="14sp"
+                tl:tl_underline_color="#DDDDDD"
+                tl:tl_underline_height="1dp" />
+        </LinearLayout>
+    </LinearLayout>
+
+</RelativeLayout>
+
+
+
+

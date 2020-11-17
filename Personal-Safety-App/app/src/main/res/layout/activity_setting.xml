@@ -1,0 +1,167 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#ffffff"
+    tools:context=".activity.SettingActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_vertical"
+        android:layout_marginLeft="18dp"
+        android:layout_marginTop="60dp"
+        android:layout_marginRight="18dp"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:layout_width="25dp"
+            android:layout_height="25dp"
+            android:src="@mipmap/lock" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:text="Set Password"
+            android:textStyle="bold"
+            android:textColor="#551A8B"
+            android:textSize="25sp" />
+    </LinearLayout>
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="18dp"
+        android:layout_marginTop="100dp"
+        android:layout_marginRight="18dp"
+        android:text="@string/hint_setting"
+        android:textColor="#757575"
+        android:textSize="15sp"
+        android:lineSpacingMultiplier="1.2"/>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="200dp"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="250dp"
+            android:layout_marginLeft="18dp"
+            android:layout_marginRight="18dp"
+            android:background="@drawable/shape_login_form"
+            android:gravity="center"
+            android:orientation="vertical"
+            android:paddingLeft="43dp"
+            android:paddingRight="31dp">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center_vertical"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:layout_width="25dp"
+                    android:layout_height="25dp"
+                    android:src="@mipmap/user" />
+
+                <EditText
+                    android:id="@+id/old_pwd"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="20dp"
+                    android:background="@null"
+                    android:hint="@string/oldpwd_hint"
+                    android:inputType="textPassword"
+                    android:textColor="#551A8B"
+                    android:textColorHint="#bcbcbc"
+                    android:textSize="18sp" />
+            </LinearLayout>
+
+
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:layout_marginTop="23dp"
+                android:layout_marginBottom="23dp"
+                android:background="@color/divider" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center_vertical"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:layout_width="25dp"
+                    android:layout_height="25dp"
+                    android:src="@mipmap/pwd" />
+
+                <EditText
+                    android:id="@+id/new_pwd"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="20dp"
+                    android:background="@null"
+                    android:inputType="textPassword"
+                    android:hint="@string/newpwd_hint"
+                    android:textColor="@color/black"
+                    android:textColorHint="#bcbcbc"
+                    android:textSize="18sp" />
+            </LinearLayout>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:layout_marginTop="23dp"
+                android:layout_marginBottom="23dp"
+                android:background="@color/divider" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center_vertical"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:layout_width="25dp"
+                    android:layout_height="25dp"
+                    android:src="@mipmap/confirm" />
+
+                <EditText
+                    android:id="@+id/confirm_pwd"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="20dp"
+                    android:background="@null"
+                    android:inputType="textPassword"
+                    android:hint ="@string/confirmPwd_hint"
+                    android:textColor="@color/black"
+                    android:textColorHint="#bcbcbc"
+                    android:textSize="18sp" />
+            </LinearLayout>
+
+        </LinearLayout>
+
+        <Button
+            android:id="@+id/set_pwd"
+            android:layout_width="match_parent"
+            android:layout_height="55dp"
+            android:layout_marginLeft="18dp"
+            android:layout_marginTop="67dp"
+            android:layout_marginRight="18dp"
+            android:background="@drawable/shape_big_register_btn"
+            android:text="@string/set_pwd"
+            android:textAllCaps="false"
+            android:textColor="@color/white"
+            android:textSize="24sp" />
+
+    </LinearLayout>
+</RelativeLayout>
