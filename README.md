@@ -1,4 +1,4 @@
-# Persaon-Safety-App
+# Personal-Safety-App
 Sister is a personal safety app, which works based on real time location. It aims to prevent possible threats and respond in case of an emergency.
 It mainly contains these five functions: 
 1. User Registration /Login / Profile
