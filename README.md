@@ -4,36 +4,35 @@ It mainly contains these five functions:
 1. User registration / login / profile
 2. Scream alarms and fake calls                            
 3. Emergency call and SMS with current GPS location        
-4. Search nearby police stations and hospitals                                                                      
+4. Search nearby hospitals and police stations and navigation                                                                     
 5. Provide first aid / self defense / health tips  
 
 ## Details
 Using the abundant features and UI elements, this project will compliment functions as follows.
-1. Send Location: The user just needs to click on the “Share Location” button, the application will send a message to everyone in the contact list to inform them the user’s location.
+1. User Registration and Login: When using the app for the first time, users should register with their username, email and password. If she already has an account, she can log in with her email and password. 
 
-2. Emergency Call: There will be two methods to trigger this function, one is click the “Emergency Call”button at the home page, the other is to shake the phone heavily, as long as this function is being triggered, the application will call the default contact automatically to look for help.
+2. User information setting: After logging in, the user can set her user name, profile picture and password.
 
-3. Alarm: Users may need the safety alarm in case they find out that someone is following or stalking them. The alarm sound is provided by the system, the default is the police siren sound.
+3. Use third-party accounts to log in: Users can use their third-party accounts (e.g. Facebook/Google account) to log in to our app. The system will identify the user through the user's email.
 
-4. Fake Call: The fake call allows the user to record some conversations in advance, under some emergency conditions, the user could choose one to play to pretend she is talking to someone through the phone, in order to scare the one who is following.
+4. Add emergency contact: User can add emergency contact including name, portrait, phone number, and email address. Users can call them or send messages or emails with one click.
 
-5. Find nearby hospitals and police stations and Navigation: In the map fragment, users could find the nearby hospitals and police station with one click. When the user finds her destination, click on the marker on the map, she will get the route through Google map. 
+5. Send location: Long press the "Share Location" button, the application will send a message to everyone in the contact list to ask for help and inform them of the user's current location. (In order to avoid misoperation, the trigger condition is set to long press this button)
 
-6. User Registration and Login: For the first time to use the app, the user should register with user name, Email and password. If she already has an account, she could login with email & password. 
+6. Emergency call: Long press the "emergency call" button on the homepage, or just shake the phone (open the motion sensor in advance), the application will automatically dial the emergency contact
 
-7. User and information settings: As long as the user login, she could set her username, head profile and password. 
+7.Alerts: Users may need security alerts in case they find someone is following or stalking them. The alarm sound is provided by the system, and the default is the siren sound.
 
-8. Using third party accounts: Users could login into our application with their third party accounts, like Facebook / Google accounts. The system will identify the user by their Email.
+8. Fake Call: Fake call: Fake call allows the user to pre-record some conversations. In some emergency situations, the user can choose one to play to pretend that she is talking with someone to scare away the stalker
 
-9. Set contact persons and contact with them: Users could set the contacts list with their name, head profile, phone number, Email address. Users could call them or send messages or send an Email with one click. 
+9. Search nearby hospitals and police stations and navigation: In the map page, users can quickly find nearby hospitals and police stations. Click the marker on the map and she will get the route through Google Maps.
 
-10. FirstAid helper: Under the discover page, users could get some training in first aid.
+10. FirstAid help program: Under the discovery page, users can receive some first aid training.
 
-11. Self defense helper: Under the discover page, users could get some training in self defense.
+11. Self-defense assistant: The discovery page provides guidance and training on self-defense.
 
-12. Healthy tips: Under the discover page, users could get some training on healthy tips.
+12. Healthy tips: The discovery page provide some health tips.
 
-13. About Us: Users can link to the About Us page and Click the link to contact us.
+13. About Us: Users can contact us in various ways.
 
-14. FAQ Page: Users can browse the FAQ page and get answers to FAQs.
-
+14. FAQ Page: Users can browse the "FAQ" page for help at any time
