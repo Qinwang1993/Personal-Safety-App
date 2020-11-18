@@ -7,6 +7,8 @@ It mainly contains these five functions:
 4. Search nearby hospitals and police stations and navigation                                                                     
 5. Provide first aid / self defense / health tips  
 
+Developer: Qin Wang
+
 ## Details
 Using the abundant features and UI elements, this project will compliment functions as follows.
 ### 1. User Registration and Login: 
