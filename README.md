@@ -10,7 +10,7 @@ It mainly contains these five functions:
 Developer: Qin Wang
 
 ## Details
-Using the abundant features and UI elements, this project will compliment functions as follows.
+The project has convenient functions and a friendly user interface, as shown below:
 ### 1. User Registration and Login: 
 When using the app for the first time, users should register with their username, email and password. If she already has an account, she can log in with her email and password. 
 
