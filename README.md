@@ -18,21 +18,21 @@ When using the app for the first time, users should register with their username
   <img src = "https://github.com/Qinwang1993/Personal-Safety-App/blob/main/ScreenShoot/log%20in.jpg" width = "200" />
 </div>
 
-### 2. User information setting: 
+### 2. Use third-party accounts to log in: 
+Users can use their third-party accounts (e.g. Facebook/Google account) to log in to our app. The system will identify the user through the user's email.
+
+<div  align="center">    
+  <img src = "https://github.com/Qinwang1993/Personal-Safety-App/blob/main/ScreenShoot/facebook%20login.jpg" width = "200" />
+  <img src = "https://github.com/Qinwang1993/Personal-Safety-App/blob/main/ScreenShoot/google%20login.jpg" width = "200" />
+</div>
+
+### 3. User information setting: 
 After logging in, the user can set her user name, profile picture and password.
 
 <div  align="center"> 
   <img src = "https://github.com/Qinwang1993/Personal-Safety-App/blob/main/ScreenShoot/navigation%20drawer.jpg" width = "200" />
   <img src = "https://github.com/Qinwang1993/Personal-Safety-App/blob/main/ScreenShoot/user%20information%20setting.jpg" width = "200" />
   <img src = "https://github.com/Qinwang1993/Personal-Safety-App/blob/main/ScreenShoot/password%20setting.jpg" width = "200" />
-</div>
-
-### 3. Use third-party accounts to log in: 
-Users can use their third-party accounts (e.g. Facebook/Google account) to log in to our app. The system will identify the user through the user's email.
-
-<div  align="center">    
-  <img src = "https://github.com/Qinwang1993/Personal-Safety-App/blob/main/ScreenShoot/facebook%20login.jpg" width = "200" />
-  <img src = "https://github.com/Qinwang1993/Personal-Safety-App/blob/main/ScreenShoot/google%20login.jpg" width = "200" />
 </div>
 
 ### 4. Add emergency contact: 
@@ -79,6 +79,9 @@ Fake call: Fake call allows the user to pre-record some conversations. In some e
   <img src = "https://github.com/Qinwang1993/Personal-Safety-App/blob/main/ScreenShoot/home%20page.jpg" width = "200" />
   <img src = "https://github.com/Qinwang1993/Personal-Safety-App/blob/main/ScreenShoot/fake%20call%20list.jpg" width = "200" />
   <img src = "https://github.com/Qinwang1993/Personal-Safety-App/blob/main/ScreenShoot/add%20fake%20call.jpg" width = "200" />
+</div>
+
+<div  align="center">    
   <img src = "https://github.com/Qinwang1993/Personal-Safety-App/blob/main/ScreenShoot/retry%20or%20save.jpg" width = "200" />
   <img src = "https://github.com/Qinwang1993/Personal-Safety-App/blob/main/ScreenShoot/play%20record.jpg" width = "200" />
 </div>
