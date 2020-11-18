@@ -50,8 +50,10 @@ User can add emergency contact including name, portrait, phone number, and email
 ### 5. Send location: 
 Long press the "Share Location" button, the application will send a message to everyone in the contact list to ask for help and inform them of the user's current location. (In order to avoid misoperation, the trigger condition is set to long press this button)
 
-<img src = "https://github.com/Qinwang1993/Personal-Safety-App/blob/main/ScreenShoot/share%20location.jpg" width = "375" />
-                                                                                                                           
+<div  align="center">    
+  <img src = "https://github.com/Qinwang1993/Personal-Safety-App/blob/main/ScreenShoot/share%20location.jpg" width = "375" />
+</div>      
+
 ### 6. Emergency call: 
 Long press the "emergency call" button on the homepage, or just shake the phone (open the motion sensor in advance), the application will automatically dial the emergency contact
 (1) Add default emergency contact in the emergency contact list.
@@ -78,6 +80,7 @@ Fake call: Fake call allows the user to pre-record some conversations. In some e
   <img src = "https://github.com/Qinwang1993/Personal-Safety-App/blob/main/ScreenShoot/fake%20call%20list.jpg" width = "200" />
   <img src = "https://github.com/Qinwang1993/Personal-Safety-App/blob/main/ScreenShoot/add%20fake%20call.jpg" width = "200" />
   <img src = "https://github.com/Qinwang1993/Personal-Safety-App/blob/main/ScreenShoot/retry%20or%20save.jpg" width = "200" />
+  <img src = "https://github.com/Qinwang1993/Personal-Safety-App/blob/main/ScreenShoot/play%20record.jpg" width = "200" />
 </div>
 
 ### 9. Search nearby hospitals and police stations and navigation: 
