@@ -19,7 +19,7 @@ When using the app for the first time, users should register with their username
 </div>
 
 ### 2. Use third-party accounts to log in: 
-Users can use their third-party accounts (e.g. Facebook/Google account) to log in to our app. The system will identify the user's email.
+Users can use their third-party accounts (e.g. Facebook/Google account) to log in to our app. The app will identify the user's email.
 
 <div  align="center">    
   <img src = "https://github.com/Qinwang1993/Personal-Safety-App/blob/main/ScreenShoot/facebook%20login.jpg" width = "200" />
